@@ -36,11 +36,14 @@
 		<div class="top-area">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6 col-md-6">
-					<p class="bold text-left">Monday - Saturday, 8am to 10pm </p>
+					<div class="col-sm-4 col-md-4">
+					  <p class="bold text-left">Monday - Saturday, 8am to 10pm </p>
 					</div>
-					<div class="col-sm-6 col-md-6">
-					<p class="bold text-right">Call us now +254 722 527 470</p>
+          <div class="col-sm-4 col-md-4">
+					  <p class="bold text-center">Today: {{ Carbon\Carbon::now()->format('l j F Y')}} </p>
+					</div>
+					<div class="col-sm-4 col-md-4">
+					  <p class="bold text-right">Call us now +254 722 527 470</p>
 					</div>
 				</div>
 			</div>
@@ -92,17 +95,16 @@
 					<h4 class="h-light">Nurturing Future Talent</h4>
 					</div>
 						<div class="well well-trans">
-						<div class="wow fadeInRight" data-wow-delay="0.1s">
-
-						<ul class="lead-list">
-							<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Affordable monthly premium packages</strong><br />Lorem ipsum dolor sit amet, in verterem persecuti vix, sit te meis</span></li>
-							<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Choose your favourite doctor</strong><br />Lorem ipsum dolor sit amet, in verterem persecuti vix, sit te meis</span></li>
-							<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Only use friendly environment</strong><br />Lorem ipsum dolor sit amet, in verterem persecuti vix, sit te meis</span></li>
-						</ul>
-						<p class="text-right wow bounceIn" data-wow-delay="0.4s">
-						<a href="#" class="btn btn-skin btn-lg">Learn more <i class="fa fa-angle-right"></i></a>
-						</p>
-						</div>
+  						<div class="wow fadeInRight" data-wow-delay="0.1s">
+    						<ul class="lead-list">
+    							<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Athletics Rules Compliant</strong><br />Ndalat Gaa IF Foundation is compliant to rules of athletics</span></li>
+    							<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Registered in Kenya</strong><br />Duly registered in Kenya, and compliant to the laws of the land</span></li>
+    							<li><span class="fa fa-check fa-2x icon-success"></span> <span class="list"><strong>Licensed Races</strong><br />Every Race is registered with Athletics Kenya</span></li>
+    						</ul>
+    						<p class="text-right wow bounceIn" data-wow-delay="0.4s">
+    						   <a href="#" class="btn btn-skin btn-lg">Learn more <i class="fa fa-angle-right"></i></a>
+    						</p>
+  						</div>
 						</div>
 
 
@@ -121,7 +123,7 @@
 	<!-- /Section: intro -->
 
 	<!-- Section: boxes -->
-    <section id="boxes" class="home-section paddingtop-80">
+    {{-- <section id="boxes" class="home-section paddingtop-80">
 
 		<div class="container">
 			<div class="row">
@@ -175,7 +177,7 @@
 			</div>
 		</div>
 
-	</section>
+	</section> --}}
 	<!-- /Section: boxes -->
 
 
@@ -188,8 +190,8 @@
 								<div class="col-md-8">
 									<div class="wow fadeInUp" data-wow-delay="0.1s">
 									<div class="cta-text">
-									<h3>In an emergency? Need help now?</h3>
-									<p>Lorem ipsum dolor sit amet consectetur adipiscing elit uisque interdum ante eget faucibus. </p>
+									<h3>Need to join Us?</h3>
+									<p>We are waiting for you, your talent will grow with the help of proffesionals.</p>
 									</div>
 									</div>
 								</div>
@@ -214,90 +216,90 @@
 		<div class="container">
 
         <div class="row">
-			<div class="col-sm-6 col-md-6">
-				<div class="wow fadeInUp" data-wow-delay="0.2s">
-				<img src="img/dummy/img-1.jpg" class="img-responsive" alt="" />
-				</div>
-            </div>
+    			<div class="col-sm-6 col-md-6">
+    				<div class="wow fadeInUp" data-wow-delay="0.2s">
+    				<img src="med/img/run.png" class="img-responsive" alt="" />
+    				</div>
+          </div>
 			<div class="col-sm-3 col-md-3">
 
 				<div class="wow fadeInRight" data-wow-delay="0.1s">
-                <div class="service-box">
-					<div class="service-icon">
-						<span class="fa fa-stethoscope fa-3x"></span>
-					</div>
-					<div class="service-desc">
-						<h5 class="h-light">Medical checkup</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-					</div>
-                </div>
+          <div class="service-box">
+  					<div class="service-icon">
+  						<span class="fa fa-anchor fa-3x"></span>
+  					</div>
+  					<div class="service-desc">
+  						<h5 class="h-light">Principles</h5>
+  						<p>Ndalat Gaa I.F Kiplagat Foundation is anchored in the principle of hardwork and honesty</p>
+  					</div>
+          </div>
 				</div>
 
 				<div class="wow fadeInRight" data-wow-delay="0.2s">
-				<div class="service-box">
-					<div class="service-icon">
-						<span class="fa fa-wheelchair fa-3x"></span>
-					</div>
-					<div class="service-desc">
-						<h5 class="h-light">Nursing Services</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-					</div>
-                </div>
+  				<div class="service-box">
+  					<div class="service-icon">
+  						<span class="fa fa-angle-double-up fa-3x"></span>
+  					</div>
+  					<div class="service-desc">
+  						<h5 class="h-light">Growth</h5>
+  						<p>Over the past 10 years, Growth of the foundation has been steady and true to its vision</p>
+  					</div>
+          </div>
 				</div>
 				<div class="wow fadeInRight" data-wow-delay="0.3s">
-				<div class="service-box">
-					<div class="service-icon">
-						<span class="fa fa-plus-square fa-3x"></span>
-					</div>
-					<div class="service-desc">
-						<h5 class="h-light">Pharmacy</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-					</div>
-                </div>
+  				<div class="service-box">
+  					<div class="service-icon">
+  						<span class="fa fa-plus-square fa-3x"></span>
+  					</div>
+  					<div class="service-desc">
+  						<h5 class="h-light">Athletes Wellbeing</h5>
+  						<p>Athletes are taken care of, their wellbieng gives them the will to shine</p>
+  					</div>
+          </div>
 				</div>
 
 
             </div>
 			<div class="col-sm-3 col-md-3">
 
-				<div class="wow fadeInRight" data-wow-delay="0.1s">
-                <div class="service-box">
-					<div class="service-icon">
-						<span class="fa fa-h-square fa-3x"></span>
-					</div>
-					<div class="service-desc">
-						<h5 class="h-light">Gyn Care</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-					</div>
-                </div>
-				</div>
-
-				<div class="wow fadeInRight" data-wow-delay="0.2s">
-				<div class="service-box">
-					<div class="service-icon">
-						<span class="fa fa-filter fa-3x"></span>
-					</div>
-					<div class="service-desc">
-						<h5 class="h-light">Neurology</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-					</div>
-                </div>
-				</div>
-				<div class="wow fadeInRight" data-wow-delay="0.3s">
-				<div class="service-box">
-					<div class="service-icon">
-						<span class="fa fa-user-md fa-3x"></span>
-					</div>
-					<div class="service-desc">
-						<h5 class="h-light">Sleep Center</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada.</p>
-					</div>
-                </div>
-				</div>
-
+  				<div class="wow fadeInRight" data-wow-delay="0.1s">
+            <div class="service-box">
+    					<div class="service-icon">
+    						<span class="fa fa-h-square fa-3x"></span>
+    					</div>
+    					<div class="service-desc">
+    						<h5 class="h-light">Home to Athletics</h5>
+    						<p>Ndalat Gaa I.F Kiplagat is attarcting the right publicity and support to realize its founders vision, the vision to nurture</p>
+    					</div>
             </div>
+  				</div>
+
+  				<div class="wow fadeInRight" data-wow-delay="0.2s">
+    				<div class="service-box">
+    					<div class="service-icon">
+    						<span class="fa fa-filter fa-3x"></span>
+    					</div>
+    					<div class="service-desc">
+    						<h5 class="h-light">Competition Model</h5>
+    						<p>The model brings out the best talents from the source</p>
+    					</div>
+            </div>
+  				</div>
+  				<div class="wow fadeInRight" data-wow-delay="0.3s">
+    				<div class="service-box">
+    					<div class="service-icon">
+    						<span class="fa fa-child fa-3x"></span>
+    					</div>
+    					<div class="service-desc">
+    						<h5 class="h-light">Kids Race</h5>
+    						<p>Ndalat Gaa Foundation knows the best time to nurture talent</p>
+    					</div>
+            </div>
+  				</div>
 
         </div>
+
+      </div>
 		</div>
 	</section>
 	<!-- /Section: services -->
@@ -310,8 +312,8 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
 					<div class="section-heading text-center">
-					<h2 class="h-bold">Doctors</h2>
-					<p>Ea melius ceteros oportere quo, pri habeo viderer facilisi ei</p>
+					<h2 class="h-bold">The Management Team</h2>
+					<p>An able team with the vision of the foundation at heart, realizing new horizons</p>
 					</div>
 					</div>
 					<div class="divider-short"></div>
@@ -417,8 +419,8 @@
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="wow fadeInDown" data-wow-delay="0.1s">
 					<div class="section-heading text-center">
-					<h2 class="h-bold">Our facilities</h2>
-					<p>Ea melius ceteros oportere quo, pri habeo viderer facilisi ei</p>
+					<h2 class="h-bold">Our Gallery of Events</h2>
+					<p>Ndalat has been hosting annual races, with great impact and results, here is sneak peek</p>
 					</div>
 					</div>
 					<div class="divider-short"></div>
@@ -629,7 +631,9 @@
 					<div class="widget">
 						<h5>About Ndalat Gaa I.F Kiplagat Foundation</h5>
 						<p>
-						   Ndalat Gaa I.F Kiplagat foundation is after the dream of two visionaries who saw it noble to nurture young talent for better life.
+						   Ndalat Gaa I.F Kiplagat foundation is after the
+               dream of two visionaries who saw it noble to
+               nurture young talent for better life.
 						</p>
 					</div>
 					</div>
